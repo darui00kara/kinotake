@@ -1,0 +1,6 @@
+iex> Kernel.ParallelRequire.files(["./lib/unit/unit_example.ex"])
+lib/unit/unit_example.ex:1: warning: redefining module UnitExample
+[UnitExample]
+
+読込み済みの場合、警告が発生する。
+ファイルが見つからない場合は例外が発生する。
